@@ -1,3 +1,5 @@
 # Python Django REST API
- GET,POST
+
+ GET,POST Function
+ 
  PostgreSQL DataBase
