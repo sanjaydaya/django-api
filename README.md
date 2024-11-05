@@ -32,18 +32,25 @@ create api folder
 python manage.py startapp api
 ```
 
-in your project folder update file called settings.py
+in your project folder update file called settings.py 
+1.update under INSTALLED_APPS section
+
 ```bash
-pip install requests
+'rest_framework',
+    'api'
 ```
-add file called views.py on your project (Write request function in views.py, with api
-from which you want Data.)
-
-edit file called urls.py (Set URL for that view function)
-
-add file home.html (Display from template)
-
-run project
+2.update DATABASES = section
 ```bash
+'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',     # Replace with your database name
+        'USER': 'postgres',           # Replace with your PostgreSQL username
+        'PASSWORD': '.*******',       # Replace with your PostgreSQL password
+        'HOST': 'localhost',               # Typically 'localhost' or '127.0.0.1'
+        'PORT': '5432',                    # Default PostgreSQL port
+    }
+```
+
+
 python manage.py runserver
 ```
