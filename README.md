@@ -57,6 +57,28 @@ python manage.py startapp api
 
 # in your api folder 
 
+1.code models.py
 
+2.in code editor terminal migrate process
+```bash
+python manage.py makemigrations
+python manage.py migrate
+````
+
+3.add/create file called under api serializer.py
+    code 
+
+4.code file callled views.py under api
+
+5.add/create file called under api urls.py
+    code 
+
+
+# in your project folder
+
+1.update/edit file called urls.py
+
+# Run
+```bash
 python manage.py runserver
 ```
