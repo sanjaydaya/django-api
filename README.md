@@ -34,7 +34,7 @@ python manage.py startapp api
 
 
 
-in your project folder update file called settings.py 
+# in your project folder update file called settings.py 
 
 1.update under INSTALLED_APPS section
 
@@ -53,6 +53,9 @@ in your project folder update file called settings.py
         'PORT': '5432',                    # Default PostgreSQL port
     }
 ```
+
+
+# in your api folder 
 
 
 python manage.py runserver
