@@ -32,7 +32,10 @@ create api folder
 python manage.py startapp api
 ```
 
+
+
 in your project folder update file called settings.py 
+
 1.update under INSTALLED_APPS section
 
 ```bash
